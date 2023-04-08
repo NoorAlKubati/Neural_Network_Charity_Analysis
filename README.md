@@ -26,4 +26,6 @@ Upon examining the data, variables were checked to determine the number of uniqu
 After that, each variable was examined individually to see the categories and try an basket them to limit the number of categories and make them more manageable. For example, the application type variable was divided into nine categories instead of 17 simply because some of the categories were significantly less than the other ones, and therefore were bucketed into one single category, i.e., other.
 ![image](https://user-images.githubusercontent.com/116329396/230694774-452de759-0875-4542-a7d6-33209213fa73.png)
 
-The same procedures were done for the remaining features.
+The same procedures were done for the remaining features. After that, using OneHotEncoder all features were reshaped and merged with the original dataset. The original variables were removed, as well. Followig that, data were split into train and test and all data were scaled to prepare them for the model. Finally, the model was compiled, trained and evaluated. 
+![image](https://user-images.githubusercontent.com/116329396/230695873-555d4e66-a5c2-4694-a8f1-e19c58573e9f.png)
+
